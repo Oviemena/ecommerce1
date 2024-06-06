@@ -1,6 +1,4 @@
-import hero from "/assets/images/hero.jpeg";
-
-export const heroImg = hero;
+import Video from 'next-video';
 
 import hmv from "@/videos/hero.mp4";
 import smallmv from "@/videos/smallHero.mp4";
@@ -11,25 +9,27 @@ import highlightFourthmv from "@/videos/hightlight-fourth.mp4";
 import exploremv from "@/videos/explore.mp4";
 import framemv from "@/videos/frame.mp4";
 
-import apple from "/assets/images/apple.svg";
-import search from "/assets/images/search.svg";
-import bag from "/assets/images/bag.svg";
-import watch from "/assets/images/watch.svg";
-import right from "/assets/images/right.svg";
-import replay from "/assets/images/replay.svg";
-import play from "/assets/images/play.svg";
-import pause from "/assets/images/pause.svg";
+import apple from "../../public/assets/images/apple.svg";
+import search from "../../public/assets/images/search.svg";
+import bag from "../../public/assets/images/bag.svg";
+import watch from "../../public/assets/images/watch.svg";
+import right from "../../public/assets/images/right.svg";
+import replay from "../../public/assets/images/replay.svg";
+import play from "../../public/assets/images/play.svg";
+import pause from "../../public/assets/images/pause.svg";
 
-import yellow from "/assets/images/yellow.jpg";
-import blue from "/assets/images/blue.jpg";
-import white from "/assets/images/white.jpg";
-import black from "/assets/images/black.jpg";
-import explore1 from "/assets/images/explore1.jpg";
-import explore2 from "/assets/images/explore2.jpg";
-import chip from "/assets/images/chip.jpeg";
-import frame from "/assets/images/frame.png";
+import yellow from "../../public/assets/images/yellow.jpg";
+import blue from "../../public/assets/images/blue.jpg";
+import white from "../../public/assets/images/white.jpg";
+import black from "../../public/assets/images/black.jpg";
+import explore1 from "../../public/assets/images/explore1.jpg";
+import explore2 from "../../public/assets/images/explore2.jpg";
+import chip from "../../public/assets/images/chip.jpeg";
+import frame from "../../public/assets/images/frame.png";
+import hero from "../../public/assets/images/hero.jpeg";
 
-export const heroVideo = hmv;
+
+export const heroVideo = hmv
 export const smallHeroVideo = smallmv;
 export const highlightFirstVideo = highlightFirstmv;
 export const highlightSecondVideo = highlightSectmv;
@@ -38,6 +38,7 @@ export const highlightFourthVideo = highlightFourthmv;
 export const exploreVideo = exploremv;
 export const frameVideo = framemv;
 
+export const heroImg = hero;
 export const appleImg = apple;
 export const searchImg = search;
 export const bagImg = bag;
