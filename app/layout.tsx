@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <main className="max-w-[1400px] items-center justify-center  bg-red-400">{children}</main>
+      </body>
     </html>
   );
 }
