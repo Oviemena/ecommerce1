@@ -58,7 +58,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const Hero = () => {
-  const [videoSrc, setVideoSrc] = useState(''); // Initialize with an empty string
+  const [videoSrc, setVideoSrc] = useState('');
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -86,7 +86,7 @@ const Hero = () => {
   }, []);
 
   if (!isClient) {
-    return null; // Return null during SSR
+    return null; 
   }
 
   return (
