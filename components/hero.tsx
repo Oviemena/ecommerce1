@@ -18,7 +18,18 @@
 //     }
 //   };
   
-
+// onClick={() => {
+            //   const currentVideoIndex = videoRef.current.length - 1; // Assuming 'i' represents the last index
+            //   return () => {
+            //     if (isLastVideo) {
+            //       handleProcess("video-reset", currentVideoIndex);
+            //     } else if (!isPlaying) {
+            //       handleProcess("play", currentVideoIndex);
+            //     } else {
+            //       handleProcess("pause", currentVideoIndex);
+            //     }
+            //   };
+            // }}
 //   useEffect(() => {
 //     window.addEventListener('resize', handleVideoSrcSet)
 //     return () => {
